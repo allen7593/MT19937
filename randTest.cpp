@@ -1,0 +1,15 @@
+#include <iostream>
+#include <random>
+#include <chrono>
+
+using namespace std;
+
+int main()
+{
+	std::mt19937 mt(1234554321);
+
+	for(int i=0;i<15;i++)
+	cout<<mt()%6<<endl;
+
+	return 0;
+}
