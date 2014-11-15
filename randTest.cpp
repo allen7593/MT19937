@@ -8,7 +8,7 @@ int main()
 	std::mt19937 mt(1234554321);
 
 	for(int i=0;i<15;i++)
-	cout<<mt()%6<<endl;
+	cout<<mt()<<endl;
 
 	return 0;
 }
